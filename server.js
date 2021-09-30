@@ -7,7 +7,7 @@ app.use(express.static(path.resolve(__dirname, 'public'))) //static
 
 app.get('/', (req, res) => {
     res.status(200)
-    res.sendFile('/index.html')
+    res.sendFile('/public/index.html')
 })
 
 //CONNECT TO PORT
