@@ -65,16 +65,19 @@ body {
 }
 
 .card-plan {
+  width: 85%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  padding: 10% 0%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 4% 0%;
+  background-color: rgba(224, 232, 255, 0.4);
+  margin: 10% auto;
+  border-radius: 1rem;
 }
 
 .card-plan__cost {
@@ -133,6 +136,7 @@ body {
 
 .card-btn__cancel {
   color: #7280a7;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 @media only screen and (max-width: 2200px) {
@@ -189,6 +193,10 @@ body {
 @media only screen and (max-width: 375px) {
   .card {
     width: 88%;
+  }
+  .card-plan {
+    width: 85%;
+    padding: 4% 0%;
   }
   .card-plan__cost {
     right: 5%;
