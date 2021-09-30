@@ -54,6 +54,6 @@ The designs created to the following widths:
 
 ## Author
 
-- Website - [Katya Ru](https://www.your-site.com)
+- Website - [Katya Rukosuev](https://katya-ru.herokuapp.com/)
 - Frontend Mentor - [@RuKatya](https://www.frontendmentor.io/profile/RuKatya)
 - Linkedin - [Katya Rukosuev](https://www.linkedin.com/in/katya-rukosuev/)
