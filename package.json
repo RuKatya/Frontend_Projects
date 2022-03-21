@@ -20,6 +20,8 @@
   "homepage": "https://github.com/RuKatya/Frontend_Projects#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "react-router-dom": "^6.2.2",
+    "sass": "^1.49.9"
   }
 }
